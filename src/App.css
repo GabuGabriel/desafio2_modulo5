@@ -1,14 +1,16 @@
 #root {
   margin: 0 auto;
   text-align: center;
-}
-
-h1 {
-  margin: 1em;
+  background-color: rgb(196, 196, 196);
 }
 
 a {
   text-decoration: none;
+}
+
+.containerFavoritas{
+  height: 400px;
+  margin-top: 40px;
 }
 
 .style404 {
@@ -16,4 +18,14 @@ a {
   background-image: url("./assets/images/pngwing.com.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: black;
+}
+
+.containerhome{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  background-color: rgb(97, 71, 71);
 }
