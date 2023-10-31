@@ -1,20 +1,15 @@
 import { Link } from "react-router-dom"
 
-
-const Navbar = () => {
+export default function NavBar() {
     return (
-        <nav class="navbar bg-danger">
-            <div class="d-flex justify-content-center align-items-center align-content-cente">
-                <Link to="/">
-                    <a class="navbar-brand" href="#" >Home</a>
-                </Link>
+        <nav class="navbar d-flex justify-content-center bg-secondary">
+            <Link to="/">
+                <a class="navbar-brand" href="#" >Home</a>
+            </Link>
 
-                <Link to="Favoritos">
-                    <a class="navbar-brand" href="#">Favoritos</a>
-                </Link>
-            </div>
+            <Link to="Favoritos">
+                <a class="navbar-brand" href="#">Favoritos</a>
+            </Link>
         </nav>
     )
 }
-
-export default Navbar

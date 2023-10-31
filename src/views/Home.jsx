@@ -1,10 +1,8 @@
-const Home = () => {
+export default function Home() {
+
     return (
         <>
-            <h1>Bienvenido a nuesta tienda</h1>
-            <h2>Encuentra todo lo que necesitas</h2>   
+            <h1>Natural Pic</h1>
         </>
     )
 }
-
-export default Home 

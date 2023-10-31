@@ -3,3 +3,17 @@
   text-align: center;
 }
 
+h1 {
+  margin: 1em;
+}
+
+a {
+  text-decoration: none;
+}
+
+.style404 {
+  height: 100vh;
+  background-image: url("./assets/images/pngwing.com.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
