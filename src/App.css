@@ -6,11 +6,30 @@
 
 a {
   text-decoration: none;
+  color: rgb(228, 217, 217) !important;
+}
+
+h1{
+  font-size: 3em;
+  color: rgb(216, 199, 177);
+  padding: 15px;
+}
+
+.containerhome{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(97, 71, 71);
 }
 
 .containerFavoritas{
-  height: 400px;
-  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  background-color: rgb(97, 71, 71);
+  height: 100vh;
 }
 
 .style404 {
@@ -21,11 +40,4 @@ a {
   background-color: black;
 }
 
-.containerhome{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 5px;
-  background-color: rgb(97, 71, 71);
-}
+
