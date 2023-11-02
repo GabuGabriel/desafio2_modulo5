@@ -3,7 +3,6 @@ import heart from "../assets/iconos/heartt.svg"
 
 export default function Heart({ filled, onClick }) {
   return (
-    <>
       <div onClick={onClick}>
         {filled ? (
           <img src={HeartFilled} alt="Filled Heart" />
@@ -11,6 +10,5 @@ export default function Heart({ filled, onClick }) {
           <img src={heart} alt="Empty Heart" />
         )}
       </div>
-    </>
   );
 }
